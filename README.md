@@ -9,9 +9,10 @@ Things you may want to cover:
 
 * Rails version 6.0.0
 
-Install ruby 2.6.4
-Install rails 6.0.0
+Install ruby 2.6.4 and rails 6.0.0.
+
 clone the repo
+
 run console command:
 bundle install
 
@@ -23,5 +24,7 @@ whenever --update-crontab --set environment=development #to start cron task
 
 the cron task run every 1 minute verifyng
 the files.dat inside the HOMEPATH/data/in folder
+
 the cron logs are inside log folder
-I created routes to get Documents from folder
+
+runs on port 3000.
